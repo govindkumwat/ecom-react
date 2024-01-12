@@ -1,5 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 .App {
   text-align: center;
+  font-family: 'Poppins', sans-serif;
 }
 
 .App-logo {
@@ -23,6 +29,9 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.MainContainer {
+  margin: 0 10%;
+}
 
 .App-link {
   color: #61dafb;
@@ -36,3 +45,98 @@
     transform: rotate(360deg);
   }
 }
+
+.loginContainer {
+  width: 30%;
+  margin: auto;
+  align-items: center;
+}
+
+.cart {
+  font-size: 20px;
+    margin: 0px 6px;
+    cursor: pointer;
+}
+
+.wishlist {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.productContainer {
+  width: 31%;
+  margin: 10px;
+}
+
+.products {
+  display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.CardActionIcon {
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  width: 100%;
+}
+
+.actionBtn {
+  display: flex;
+ 
+}
+
+.wishlistbtnCard {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.cartbtnCard {
+  cursor: pointer;
+}
+
+.topCategories {
+  margin: 50px 0 26px 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.topCategoriesHeading {
+  font-size: 26px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.topCategoriesMenus {
+  display: flex;
+
+}
+
+.topCategoriesMenusImg {
+  margin: 10px 15px;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+  padding: 4px;
+  cursor: pointer;
+}
+
+.topCategoriesMenusTitle {
+  font-weight: 600;
+  font-size: 12px;
+  align-items: center;
+  text-align: center;
+  
+}
+
+.trendingProducts {
+  margin: 50px 0 0 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.homeProducts {
+  margin: 20px 0;
+}
+
+.recentlyVisited {
+  font-family: 'Poppins', sans-serif;
+  margin: 50px 0 0 0;
+
+}
+
